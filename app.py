@@ -1,11 +1,11 @@
 import streamlit as st
 import requests
-import streamlit.components.v1 as components # 1. Импорт компонента
+import streamlit.components.v1 as components
 
-# 2. Вставка кода Яндекса
+# Вставляем мета-тег Google
 components.html(
     """
-    <meta name="yandex-verification" content="8eb33d788a6d04df" />
+    <meta name="google-site-verification" content="owjub_FtfLEQBfiFdVcgRRHYXT8unk_T9TGhLjNNfa4" />
     """,
     height=0
 )
