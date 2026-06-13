@@ -1,0 +1,8 @@
+# Игнорировать системные файлы и настройки
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
