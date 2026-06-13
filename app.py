@@ -1,5 +1,14 @@
 import streamlit as st
 import requests
+import streamlit.components.v1 as components # 1. Импорт компонента
+
+# 2. Вставка кода Яндекса
+components.html(
+    """
+    <meta name="yandex-verification" content="8eb33d788a6d04df" />
+    """,
+    height=0
+)
 
 st.set_page_config(page_title="AI Detector Pro", page_icon="🤖")
 
