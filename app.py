@@ -251,5 +251,14 @@ st.markdown("""
 AI Detector Pro • Powered by SightEngine
 </div>
 """, unsafe_allow_html=True)
+import streamlit.components.v1 as components
 
+# Специальный скрытый компонент для верификации Google
+components.html(
+    """
+    <meta name="google-site-verification" content="owjub_FtfLEQBfiFdVcgRRHYXT8unk_T9TGhLjNNfa4" />
+    """,
+    height=0,
+    width=0,
+)
 
