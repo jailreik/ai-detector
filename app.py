@@ -11,7 +11,7 @@ components.html(
 )
 
 st.set_page_config(
-    page_title="Khan AI",
+    page_title="Kasym AI",
     page_icon="🤖",
     layout="centered"
 )
@@ -167,7 +167,7 @@ html, body, .stApp {
 # ===================== HERO =====================
 st.markdown("""
 <div class="hero">
-    <h1>🤖 Khan AI </h1>
+    <h1>🤖 Kasym AI </h1>
     <p>Определи, создано ли изображение искусственным интеллектом</p>
 </div>
 """, unsafe_allow_html=True)
