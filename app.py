@@ -182,7 +182,7 @@ if uploaded_file is not None:
                     st.success("✅ Изображение похоже на настоящее фото")
 
             else:
-                st.error ("Не удалось получить результа")
+                st.error("Не удалось получить результат")
                 st.write(result)
 
 st.markdown("</div>", unsafe_allow_html=True)
